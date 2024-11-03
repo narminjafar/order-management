@@ -26,7 +26,8 @@ class OrderFactory extends Factory
             'user_id' => 1,
             'quantity' => $this->faker->numberBetween(1, 5),
             'total_price' => $this->faker->randomFloat(2, 50, 1000),
-            'status'=> $this->faker->boolean()
+            'status'=> $this->faker->boolean(),
+            'paid'=> $this->faker->boolean()
         ];
     }
 }
