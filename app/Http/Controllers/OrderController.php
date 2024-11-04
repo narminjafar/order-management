@@ -6,7 +6,7 @@ use App\Http\Requests\Order\OrderListRequest;
 use App\Http\Requests\Order\OrderStoreRequest;
 use App\Http\Requests\Order\OrderUpdateRequest;
 use App\Http\Resources\OrderResource;
-use App\Services\Order\OrderService;
+use App\Services\OrderService;
 use Illuminate\Http\JsonResponse;
 
 class OrderController extends Controller

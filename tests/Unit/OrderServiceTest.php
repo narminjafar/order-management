@@ -7,7 +7,7 @@ use App\Exceptions\UnauthorizedException;
 use App\Interfaces\Repository\OrderProductRepositoryInterface;
 use App\Interfaces\Repository\OrderRepositoryInterface;
 use App\Interfaces\Repository\ProductRepositoryInterface;
-use App\Services\Order\OrderService;
+use App\Services\OrderService;
 use Illuminate\Database\Eloquent\Model;
 use Mockery;
 use RuntimeException;

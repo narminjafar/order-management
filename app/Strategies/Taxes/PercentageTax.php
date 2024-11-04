@@ -1,7 +1,7 @@
 <?php
 
 // app/Services/Taxes/PercentageTax.php
-namespace App\Services\Order\Taxes;
+namespace App\Strategies\Taxes;
 use App\Interfaces\Strategy\TaxStrategy;
 
 class PercentageTax implements TaxStrategy

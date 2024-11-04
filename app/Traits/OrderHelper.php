@@ -4,8 +4,8 @@ namespace App\Traits;
 
 use App\Exceptions\OrderModificationException;
 use App\Exceptions\OrderNotFoundException;
-use App\Services\Order\Discounts\FixedRateDiscount;
-use App\Services\Order\Taxes\PercentageTax;
+use App\Strategies\Discounts\FixedRateDiscount;
+use App\Strategies\Taxes\PercentageTax;
 
 trait OrderHelper
 {

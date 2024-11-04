@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\Order\Discounts;
+namespace App\Strategies\Discounts;
 use App\Interfaces\Strategy\DiscountStrategy;
 
 class FixedRateDiscount implements DiscountStrategy

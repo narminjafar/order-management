@@ -1,12 +1,11 @@
 <?php
 
-namespace App\Services\Order;
+namespace App\Services;
 
 use App\Exceptions\OrderModificationException;
 use App\Interfaces\Repository\OrderProductRepositoryInterface;
 use App\Interfaces\Repository\OrderRepositoryInterface;
 use App\Interfaces\Repository\ProductRepositoryInterface;
-use App\Services\BaseService;
 use App\Traits\DBTransaction;
 use App\Traits\OrderHelper;
 use App\Traits\ProductHelper;
